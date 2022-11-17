@@ -1,10 +1,13 @@
 {
-  "name": "zenithpay-server",
+  "name": "cryptoverse-server",
   "version": "0.0.0",
   "private": true,
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js"
+  },
+  "engines": {
+    "node": "12.x"
   },
   "dependencies": {
     "@hapi/joi": "^17.1.1",
